@@ -6,7 +6,8 @@ import CoupleTherapyImage from "../../assets/couple.svg";
 
 const Services = () => {
     return (
-        <div className={styles.wrapper}>
+        <div id="services" className={styles.wrapper}>
+            <div className={styles.space}/>
             <div className={styles.banner_wrapper}>
                 <p className="text_xl">Personal, Convenient Therapy & Services to Help You Find Your Peace of Mind</p>
                 <span>

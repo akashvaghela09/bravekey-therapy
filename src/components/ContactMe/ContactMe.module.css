@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 100px;
 }
 
 .section_wrapper {
@@ -61,13 +60,30 @@
     margin-top: 20px;
 }
 
-.cta_button_wrapper {
-    width: 35%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.contact_wrapper {
+    margin: 30px 0px;
 }
 
+.contact_marker {
+    font-size: 25px;
+    color: #be185d;
+}
+
+.title_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 120px;
+}
+
+.contact_title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact_data {
+    font-size: 20px;
+}
 
 /* Media query for screens smaller than 768px */
 @media (max-width: 767px) {
@@ -95,7 +111,7 @@
     }
 
     .text_wrapper {
-        width: 100%;
+        width: 90%;
     }
 
     .cta_button_wrapper {

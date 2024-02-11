@@ -1,7 +1,7 @@
 import styles from "./ContactMe.module.css";
-import { CTAButton } from "../CTAButton/CTAButton";
 import { FaLocationDot } from "react-icons/fa6";
 import ContactImage from "../../assets/contact.jpg";
+import { IoMdCall, IoMdMail } from "react-icons/io";
 
 const ContactMe = () => {
 	return (
@@ -21,8 +21,7 @@ const ContactMe = () => {
 				</div>
 			</div>
 
-
-			<div className={styles.section_wrapper}>
+			<div id="contact_me" className={styles.section_wrapper}>
 				<div className={styles.content_wrapper}>
 					<span className={styles.text_wrapper}>
 						<p className="text_xl">Locations Served</p>
@@ -57,13 +56,27 @@ const ContactMe = () => {
 						</div>
 					</span>
 				</div>
-				<div className={styles.cta_button_wrapper}>
-					<span className={styles.text_wrapper}>
+				<div className={styles.content_wrapper}>
+
+					<div className={styles.text_wrapper}>
 						<p className="text_xl">Contact Me</p>
 						<p>Bravekey Therapy and Coaching is now officially offering <br /> personal developmental coaching worldwide!</p>
-						<br />
-						<CTAButton />
-					</span>
+						<div className={styles.contact_wrapper}>
+							<span className={styles.title_wrapper}>
+								<IoMdMail className={styles.contact_marker} />
+								<p className={styles.contact_title}>Email</p>
+							</span>
+							<p className={styles.contact_data}>contact@bravekeytherapy.nl</p>
+						</div>
+
+						<div className={styles.contact_wrapper}>
+							<span className={styles.title_wrapper}>
+								<IoMdCall className={styles.contact_marker} />
+								<p className={styles.contact_title}>Call</p>
+							</span>
+							<p className={styles.contact_data}>+31(0) 6400 26318</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div >

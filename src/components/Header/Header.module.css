@@ -47,6 +47,10 @@
     .wrapper {
         padding: 5px;
     }
+
+    .logo {
+        height: 50px;
+    }
 }
 
 /* Media query for screens between 768px and 991px */
@@ -55,9 +59,4 @@
         /* background-color: red; */
         display: hidden;
     }
-}
-
-/* Media query for screens larger than 992px */
-@media (min-width: 992px) {
-    
 }

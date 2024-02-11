@@ -4,8 +4,7 @@
     align-items: center;
     flex-direction: column;
     gap: 50px;
-    height: 100vh;
-    margin-bottom: 100px;
+    padding: 100px 0px;
 }
 
 .banner_wrapper {
@@ -70,6 +69,7 @@
 @media (max-width: 767px) {
     .wrapper {
         height: fit-content;
+        padding: 50px 0px;
     }
 
     .banner_wrapper {
