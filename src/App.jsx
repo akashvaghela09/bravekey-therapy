@@ -23,9 +23,9 @@ function App() {
       <Header handleScroll={handleScroll} />
       <Hero />
       <Services />
+      <About />
       <Quote />
       <ContactMe />
-      <About />
       <Footer />
     </div>
   );
